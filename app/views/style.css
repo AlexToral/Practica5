@@ -1,0 +1,31 @@
+.carousel-item img{
+    width: 100%;
+    max-height: 200px;
+
+}
+
+.card :hover{
+    background-color: #f6f6f6;
+}
+
+.card{
+    margin-top: 8%;
+}
+
+.card-body{
+    height: 200px;
+}
+
+.card-text{
+    font-size:xx-small;
+
+}
+
+.buybutton{
+    background-color: rgb(0, 255, 85);
+    border-radius: 10px;
+}
+
+.buybutton:hover{
+    background-color: rgba(0, 255, 85, 0.543);;
+}

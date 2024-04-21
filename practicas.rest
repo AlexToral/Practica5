@@ -1,0 +1,124 @@
+#PRODUCTS QUERY
+GET http://localhost:3000/products?unit=pieza
+
+
+###CARRO DE COMPRAS
+
+POST http://localhost:3000/products/cart
+Content-Type: application/json
+
+[
+    {
+        "uuid": "e178c8cf-11c9-47cb-8a57-991ae2107ec6",
+        "amount":12
+    }
+]
+
+###Ejemplo Invalido Arreglo
+POST http://localhost:3000/products/cart
+Content-Type: application/json
+
+    {
+        "uuid": "11",
+        "amount":12
+    }
+
+###Ejemplo Invalido ID
+POST http://localhost:3000/products/cart
+Content-Type: application/json
+
+[
+    {
+        "uuid": "11",
+        "amount":12
+    }
+]
+
+###PRODUCTS ID
+GET http://localhost:3000/products/:7ebb1891-43c3-4bc1-8b97-4800e21005a4
+
+
+###EJEMPLO ID INVALIDA
+GET http://localhost:3000/products/:1
+
+###PRODUCTS ADMIN
+
+POST http://localhost:3000/admin/products
+x-auth: admin
+Content-Type: application/json
+
+{
+    "title": "Taza nuevecitwa",
+    "description": "Taza de cerámica nueva",
+    "imageUrl": "https://example.com/taza-nueva.jpg",
+    "unit": "pieza",
+    "stock": 12,
+    "priceperUnit": 7.99,
+    "category": "taza"
+}
+
+###EJEMPLO ACCESO NO AUTORIZADO
+POST http://localhost:3000/admin/products
+Content-Type: application/json
+
+{
+    "title": "Taza nueva",
+    "description": "Taza de cerámica nueva",
+    "imageUrl": "https://example.com/taza-nueva.jpg",
+    "unit": "pieza",
+    "stock": 12,
+    "priceperUnit": 7.99,
+    "category": "taza"
+}
+
+
+###
+PUT http://localhost:3000/admin/products/:7ebb1891-43c3-4bc1-8b97-4800e21005a4
+x-auth: admin
+Content-Type: application/json
+
+{
+    "title": "Taza nueva2",
+    "description": "Taza de cerámica nueva",
+    "imageUrl": "https://example.com/taza-nueva.jpg",
+    "unit": "pieza",
+    "stock": 12,
+    "priceperUnit": 7.99,
+    "category": "taza"
+}
+
+###PUT ADMIN PRODUCT:ID
+PUT http://localhost:3000/admin/products/:a87ed8c2-bdf0-4022-a311-5e12d67966e1
+x-auth: admin
+Content-Type: application/json
+
+{
+    "title": "Taza nueva4",
+    "description": "Taza de cerámica nueva",
+    "imageUrl": "https://example.com/taza-nueva.jpg",
+    "unit": "pieza",
+    "stock": 12,
+    "priceperUnit": 7.99,
+    "category": "taza"
+}
+
+###PUT ADMIN PRODUCT:ID Inexistente
+PUT http://localhost:3000/admin/products/:1
+x-auth: admin
+Content-Type: application/json
+
+{
+    "title": "Taza nueva4",
+    "description": "Taza de cerámica nueva",
+    "imageUrl": "https://example.com/taza-nueva.jpg",
+    "unit": "pieza",
+    "stock": 12,
+    "priceperUnit": 7.99,
+    "category": "taza"
+}
+
+
+###DELETE ADMIN PRODUCTS ID
+
+DELETE http://localhost:3000/admin/products/:1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
+x-auth: admin

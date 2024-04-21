@@ -1,0 +1,82 @@
+[
+  {
+    "_uuid": "b029ef32-cd4d-4295-b261-992f23a14133",
+    "_title": "Taza basica blanca",
+    "_description": "Esta taza de cerámica blanca tiene un acabado liso y brillante. Su forma cilíndrica clásica incluye un asa grande y cómoda para sujetarla fácilmente. La simplicidad y elegancia de esta taza la hacen perfecta para disfrutar de tus bebidas favoritas. ☕🌟",
+    "_imageUrl": "https://avanceytec.com.mx/modules/ajaxzoom/axZm/zoomLoad.php?azImg=/img/p/1/4/0/9/6/14096.jpg&qual=80&width=1200&height=800",
+    "_unit": "pieza",
+    "_stock": 12,
+    "_priceperUnit": 10,
+    "_category": "taza"
+  },
+  {
+    "_uuid": "7ebb1891-43c3-4bc1-8b97-4800e21005a5",
+    "_title": "Taza Ceramica decorada a Mano",
+    "_description": "¡Descubre la magia en cada sorbo con nuestra taza de cerámica! Su diseño único y detallado, lleno de montañas, nubes, estrellas y personajes, te transportará a un mundo de fantasía mientras disfrutas de tu bebida favorita. El asa cómoda y el acabado brillante hacen de esta taza una elección perfecta para regalar o para ti mismo. ¡Haz que cada café o té sea especial con esta taza encantadora! ☕🌟🌄1 x $30",
+    "_imageUrl": "https://oxm.mx/cdn/shop/products/taza-conica-metzli-fondoblanco-decorada-en-negro-a-mano-sm-oxm_345x@2x.jpg?v=1626273710",
+    "_unit": "pieza",
+    "_stock": 15,
+    "_priceperUnit": 30,
+    "_category": "tazas"
+  },
+  {
+    "_uuid": "03a60867-aa8c-40cc-a7de-bf427acecd12",
+    "_title": "Taza de Gato",
+    "_description": "¡Despierta con alegría cada mañana con nuestra taza de cerámica! El adorable diseño de gato con los ojos cerrados y las palabras “GOOD MORNING” te motivará para el día que tienes por delante. Además, su alta calidad y detalles la hacen funcional y decorativa. ☕🌟😺",
+    "_imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN1yswcxQU4TVegbZuw42mgh9rO-NG8XqyJjgzafzQ6suguxVOcTruEZF_fM9jqCjsUf8&usqp=CAU",
+    "_unit": "pieza",
+    "_stock": 12,
+    "_priceperUnit": 20,
+    "_category": "tazas"
+  },
+  {
+    "_uuid": "7ebb1891-43c3-4bc1-8b97-4800e21005a6",
+    "_title": "Taza de Cafe",
+    "_description": "¡Despierta con alegría cada mañana con nuestra taza de cerámica beige! El diseño incluye la palabra “coffee” en varios idiomas, como “Cafe”, “Caife” y “Kahve”. Además, una ilustración de una taza de café humeante se destaca en el centro de la taza. Su asa cómoda y su color crema la hacen perfecta para disfrutar de tus bebidas favoritas. ☕🌟",
+    "_imageUrl": "https://http2.mlstatic.com/D_NQ_NP_919612-MLM54060456952_022023-O.webp",
+    "_unit": "pieza",
+    "_stock": 12,
+    "_priceperUnit": 20,
+    "_category": "tazas"
+  },
+  {
+    "_uuid": "89fa6402-5840-4827-87da-ff76e2e5670d",
+    "_title": "Taza Neon",
+    "_description": "Taza verde neón con asa blanca, perfecta para darle un toque de color a tu día. Fabricada en cerámica de alta calidad, resistente al lavavajillas y al microondas. Capacidad de 300 ml.",
+    "_imageUrl": "https://avanceytec.com.mx/modules/ajaxzoom/axZm/zoomLoad.php?azImg=/img/p/1/3/3/9/2/13392.jpg&qual=80&width=1200&height=800",
+    "_unit": "pieza",
+    "_stock": 12,
+    "_priceperUnit": 12,
+    "_category": "taza"
+  },
+  {
+    "_uuid": "e2afc884-6462-42c3-935b-8ad5ab2ee64c",
+    "_title": "Taza para Parejas",
+    "_description": "Taza blanca con diseño de corazón rojo, perfecta para expresar tu amor. Fabricada en cerámica de alta calidad, resistente al lavavajillas y al microondas. Capacidad de 350 ml. ☕🌟🌄",
+    "_imageUrl": "https://igraficaciento23.com/media/catalog/product/cache/b1d50a73b30873488276b923f91f4f66/t/a/taz-duo2-199_yo_digo.jpg",
+    "_unit": "pieza",
+    "_stock": 12,
+    "_priceperUnit": 22.5,
+    "_category": "taza"
+  },
+  {
+    "_uuid": "e178c8cf-11c9-47cb-8a57-991ae2107ec6",
+    "_title": "Taza para Universitarios",
+    "_description": "Taza blanca con el logo de la Facultad de Química de la UNAM, perfecta para mostrar tu orgullo por tu alma mater. Fabricada en cerámica de alta calidad, resistente al lavavajillas y al microondas. Capacidad de 325 ml.",
+    "_imageUrl": "https://www.tiendaenlinea.unam.mx/storage/products/619/641/3001000014513-1638252233-442.jpg",
+    "_unit": "pieza",
+    "_stock": 12,
+    "_priceperUnit": 15,
+    "_category": "taza"
+  },
+  {
+    "_uuid": "e178c8cf-11c9-47cb-8a57-991ae2107ec6",
+    "_title": "Taza de Construccion",
+    "_description": "Taza blanca con el logo de GE Construcciones, ideal para los empleados y clientes de la empresa. Fabricada en cerámica de alta calidad, resistente al lavavajillas y al microondas. Capacidad de 350 ml.",
+    "_imageUrl": "https://elnumerouno.com.mx/cdn/shop/products/189.jpg?v=1621342461&width=1946",
+    "_unit": "pieza",
+    "_stock": 12,
+    "_priceperUnit": 20,
+    "_category": "taza"
+  }
+]
